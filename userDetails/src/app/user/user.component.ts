@@ -25,7 +25,7 @@ userlist : User[];
     //passing a id to retrieve
     console.log("Calling getUserDetails");
     
-    this.userService.getUser('Test')
+    this.userService.getUser('Elango50')
     .subscribe(users => this.userlist = users);
     
   }
